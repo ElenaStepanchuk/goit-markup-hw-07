@@ -43,7 +43,7 @@
 }
 .our-team-element:not(:last-child) {
   margin-right: 30px;
-  flex-basis: calc ((100% - 120px) / 4);
+  flex-basis: calc ((1600px - 120px) / 4);
 }
 .our-team-element {
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
