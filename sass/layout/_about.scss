@@ -1,0 +1,41 @@
+/* adout us */
+.about-us-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-us-list > .list {
+  flex-basis: calc((100% - 90px) / 4);
+}
+.about-us-list > .list:not(:first-child) {
+  margin-left: var(--about-us-card-gap);
+}
+
+.about-us-title {
+  color: var(--title-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.about-us p {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-top: 10px;
+}
+.bacground-about-us {
+  padding: 25px 100px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
+.about-us-antenna {
+  height: 70px;
+  width: 70px;
+}
+.icon-antenna {
+  height: 70px;
+  width: 70px;
+}

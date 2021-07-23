@@ -69,4 +69,32 @@ ol {
   width: 1px !important;
   overflow: hidden;
 }
+
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* log */
+.log-web {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  margin-right: 93px;
+}
+
+.log-studio {
+  color: #000000;
+}
 /*# sourceMappingURL=main.css.map */
