@@ -1,5 +1,5 @@
 /* log */
-.log-web {
+.log {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -8,15 +8,11 @@
   letter-spacing: 0.03em;
   margin-right: 93px;
 }
-.log-studio {
+
+.log__studio_black {
   color: #000000;
 }
 // footer log
-.footer-log-studio {
+.log__studio_white {
   color: #ffffff;
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
 }
