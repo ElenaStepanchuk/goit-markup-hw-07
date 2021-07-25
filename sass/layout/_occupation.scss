@@ -1,8 +1,7 @@
-/* our occupation */
-.our-occupation {
+.occupation {
   padding-top: 0;
 }
-.our-occupation-title {
+.occupation__title {
   color: var(--title-color);
   font-family: Roboto, sans-serif;
   font-weight: 700;
@@ -12,19 +11,17 @@
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
-.our-ocupation-list {
+.ocupation__list {
   display: flex;
   margin-right: -30px;
 }
-.our-ocupation-list .list {
+.occupation__card {
+  position: relative;
   margin-right: 30px;
   margin-bottom: 31px;
   flex-basis: calc((100% - 90px) / 3);
 }
-.our-occupation-card {
-  position: relative;
-}
-.our-ocupation-description {
+.ocupation__description {
   position: absolute;
   bottom: 0;
   width: 100%;

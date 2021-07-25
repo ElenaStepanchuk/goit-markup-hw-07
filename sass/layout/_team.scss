@@ -1,12 +1,7 @@
-/* our team */
-
-.our-team {
+.team {
   background-color: #f5f4fa;
 }
-.section-our-team {
-}
-.our-team-title,
-.regular-clients-title {
+.team__title {
   margin-bottom: 50px;
   color: var(--title-color);
   font-family: Roboto, sans-serif;
@@ -16,7 +11,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 }
-.team-name {
+.team__name {
   color: var(--title-color);
   font-family: Roboto, sans-serif;
   font-weight: 500;
@@ -25,7 +20,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 }
-.team-profession {
+.team__profession {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.19;
@@ -34,22 +29,22 @@
   margin-top: 10px;
   margin-bottom: 16px;
 }
-.our-team-list {
+.team__list {
   display: flex;
   align-items: center;
 
   margin-right: -30px;
   flex-wrap: wrap;
 }
-.our-team-element:not(:last-child) {
+.team__element:not(:last-child) {
   margin-right: 30px;
   flex-basis: calc ((1600px - 120px) / 4);
 }
-.our-team-element {
+.team__element {
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
-.our-team-names {
+.team__thumb {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: white;

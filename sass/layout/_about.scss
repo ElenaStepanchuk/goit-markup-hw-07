@@ -1,16 +1,15 @@
 /* adout us */
-.about-us-list {
+.about {
   display: flex;
   flex-wrap: wrap;
 }
-.about-us-list > .list {
+.about__list {
   flex-basis: calc((100% - 90px) / 4);
 }
-.about-us-list > .list:not(:first-child) {
+.about__list:not(:first-child) {
   margin-left: var(--about-us-card-gap);
 }
-
-.about-us-title {
+.about__title {
   color: var(--title-color);
   font-family: Roboto, sans-serif;
   font-weight: 700;
@@ -19,23 +18,23 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.about-us p {
+.about__description {
   font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   margin-top: 10px;
 }
-.bacground-about-us {
+.about-us__thumb {
   padding: 25px 100px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
 }
-.about-us-antenna {
+.about-img {
   height: 70px;
   width: 70px;
 }
-.icon-antenna {
+.about-img__icon {
   height: 70px;
   width: 70px;
 }

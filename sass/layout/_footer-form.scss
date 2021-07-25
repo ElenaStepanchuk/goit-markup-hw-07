@@ -27,3 +27,12 @@
   left: 0px;
   padding-left: 16px;
 }
+.icon-icon-send {
+  position: absolute;
+  top: 13px;
+  right: 28px;
+  fill: white;
+}
+.footer-form-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
