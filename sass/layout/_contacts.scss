@@ -3,35 +3,28 @@
   color: #ffffff;
   font-family: Roboto, sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include text(400, 14px, 1.71);
+
   margin-top: 20px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
-.adress-phisical:hover,
-.adress-phisical:focus {
-  color: var(--accent-color);
-}
-.adress-mail,
-.adress-tel {
+.adress {
   display: block;
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto, sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include text(400, 14px, 1.71);
+
   margin-top: 9px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.adress-mail:hover,
-.adress-mail:focus {
-  color: var(--accent-color);
-}
-.adress-tel:hover,
-.adress-tel:focus {
-  color: var(--accent-color);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
